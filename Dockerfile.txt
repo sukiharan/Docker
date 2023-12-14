@@ -1,0 +1,20 @@
+FROM #selecting/defining base image
+
+MAINTAINER #defining meta data's
+
+WORKDIR #mentioning where the docker should run rest of the command
+
+COPY #to copy file(s) from local to container
+
+ADD #to add file(s) from src to container. feature to download files from the internet, also we extract files at the docker image side.
+
+RUN # executing the commands. it'll create a layer in the image
+ 
+EXPOSE #informs container to listen to specified network port
+
+ENTRYPOINT #configuring a container that will run as an executable
+
+CMD #execute commands but during conatiner creation. Only one CMD element.
+
+ENV #environmental  variable
+
