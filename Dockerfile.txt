@@ -14,7 +14,7 @@ EXPOSE #informs container to listen to specified network port (*)
 
 ENTRYPOINT #configuring a container that will run as an executable
 
-CMD #execute commands but during conatiner creation. Only one CMD element (*)
+CMD #execute commands but during conatiner creation. Only one CMD element. Last element (*)
 
 ENV #environmental  variable
 
